@@ -24,4 +24,7 @@
 * ls -a 
 * cat .hidden -> pIwrPrtPN36QITSp3EQaw936yaFoFgAB
 
+## Bandit Level 5
+* find . -exec cat {} + -> koReBOKuIDDepwhWk7jZC0RTdopnAYKh
+
 
