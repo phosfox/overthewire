@@ -14,3 +14,14 @@
 * cp - /tmp/tmp.yourfoler/dashed
 * cat /tmp/tmp.yourfoler/dashed -> CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
 * or just use cat ./-
+
+## Bandit Level 3
+* cat ./spaces\ in\ this\ filename -> UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
+* just cat ./sp and press tab several times
+
+## Bandit Level 4
+* cat inhere
+* ls -a 
+* cat .hidden -> pIwrPrtPN36QITSp3EQaw936yaFoFgAB
+
+
