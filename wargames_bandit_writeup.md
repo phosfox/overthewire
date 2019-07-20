@@ -39,3 +39,11 @@
 ## Bandit Level 8
 * cat data.txt | grep "millionth" -> cvX2JJa4CFALtqS87jk27qwqGhBM9plV
 
+## Bandit Level 9
+* cat data.txt | sort | uniq -cu -> UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
+* you have to sort before uniq because uniq can only remove duplicates if they are directly successively
+
+## Bandit Level 10
+* strings data.txt | grep -E "==" -> truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
+* strings - print the strings of printable characters in files.
+
