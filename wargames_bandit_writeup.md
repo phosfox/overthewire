@@ -27,4 +27,6 @@
 ## Bandit Level 5
 * find . -exec cat {} + -> koReBOKuIDDepwhWk7jZC0RTdopnAYKh
 
-
+## Bandit Level 6
+* find -size 1033c -> ./maybehere07/.file2
+* password is in there -> DXjZPULLxYr17uwoI01bNLQbtFemEgo7
