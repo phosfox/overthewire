@@ -47,3 +47,9 @@
 * strings data.txt | grep -E "==" -> truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
 * strings - print the strings of printable characters in files.
 
+## Bandit Level 11
+* base64 -d data.txt -> IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
+
+## Bandit Level 12
+* cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m' -> 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+* The password is 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
