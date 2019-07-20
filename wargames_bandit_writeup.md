@@ -30,3 +30,12 @@
 ## Bandit Level 6
 * find -size 1033c -> ./maybehere07/.file2
 * password is in there -> DXjZPULLxYr17uwoI01bNLQbtFemEgo7
+
+## Bandit Level 7
+* find -size 33c -user bandit7 -group bandit6 2>/dev/null -> ./var/lib/dpkg/info/bandit7.password
+* the 2>/dev/null part hides all error messages. "Permission denied" etc.
+* HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
+
+## Bandit Level 8
+* cat data.txt | grep "millionth" -> cvX2JJa4CFALtqS87jk27qwqGhBM9plV
+
