@@ -53,3 +53,19 @@
 ## Bandit Level 12
 * cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m' -> 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
 * The password is 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+
+## Bandit Level 13
+* move data.txt to your tmp folder
+* xxd -r data.txt out.gz
+* gzip -d out.gz
+* bzip2 -d out
+* mv out.out out.gz
+* gzip -d out.gz
+* mv out out.tar
+* tar-xvf out.tar
+* tar-xvf data5.bin 
+* bzip2 -d data6.bin
+* tar -xvf data6.bin.out
+* mv data8.bin data8.gz
+* gzip -d data8.gz
+* cat data8 -> 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
