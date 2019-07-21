@@ -73,3 +73,9 @@
 ## Bandit Level 14
 * ssh bandit14@localhost -i sshkey.private
 * cat /etc/bandit_pass/bandit14 -> 4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
+
+## Bandit Level 15
+* on bandit14
+* telnet localhost 30000
+* passw from lvl14 4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
+* -> BfMYroe26WYalil77FoDi9qh59eK5xNr
