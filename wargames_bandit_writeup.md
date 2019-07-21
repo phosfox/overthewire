@@ -69,3 +69,7 @@
 * mv data8.bin data8.gz
 * gzip -d data8.gz
 * cat data8 -> 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
+
+## Bandit Level 14
+* ssh bandit14@localhost -i sshkey.private
+* cat /etc/bandit_pass/bandit14 -> 4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
