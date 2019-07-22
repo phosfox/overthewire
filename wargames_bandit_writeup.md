@@ -79,3 +79,22 @@
 * telnet localhost 30000
 * passw from lvl14 4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
 * -> BfMYroe26WYalil77FoDi9qh59eK5xNr
+
+## Bandit Level 16
+* ssh bandit@bandit.labs.overthewire.org
+* openssl s_client -connect localhost:30001 paste in the password from 15
+* -> cluFn7wTiGryunymYOu4RcffSxQluehd
+
+## Bandit Level 17
+* nmnap -p31000-32000 
+* openssl s_client -connect localhost:31790
+* paste the password from 16
+* save the RSA key 
+* ssh -i bandit17.key bandit17@localhost
+
+## Bandit Level 18
+* start with 17 for this, you need the bandit17 shell
+* diff password.new password.old
+* first entry is the pw for the next level
+* kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
+* 
