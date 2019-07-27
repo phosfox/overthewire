@@ -86,7 +86,7 @@
 * -> cluFn7wTiGryunymYOu4RcffSxQluehd
 
 ## Bandit Level 17
-* nmnap -p31000-32000 
+* nmnap localhost -p31000-32000 
 * openssl s_client -connect localhost:31790
 * paste the password from 16
 * save the RSA key 
@@ -104,3 +104,10 @@
 
 ## Bandit Level 20
 * ./bandit20-do cat /etc/bandit_pass/bandit20 -> GbKksEFF4yrVs6il55v6gwY5aVje5f0j
+
+## Bandit Level 21
+* open 2 ssh sessions
+* in the first: nc -lvp 4444
+* in the second ./suconnect 4444
+* in the first paste the pw from 20
+* second will print out the new pw -> gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr
