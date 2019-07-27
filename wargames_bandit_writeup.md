@@ -111,3 +111,12 @@
 * in the second ./suconnect 4444
 * in the first paste the pw from 20
 * second will print out the new pw -> gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr
+
+## Bandit Level 22
+* cat /etc/cron.d/cronjob_bandit22
+* cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv -> Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
+
+## Bandit Level 23
+* cat /etc/cron.d/cronjob_bandit23
+* /usr/bin/cronjob_bandit23.sh
+* cat /tmp/folder_that_gets_printed_above -> Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
