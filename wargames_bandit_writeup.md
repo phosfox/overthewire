@@ -97,4 +97,10 @@
 * diff password.new password.old
 * first entry is the pw for the next level
 * kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
-* 
+
+## Bandit Level 19
+* start in bandit 16
+* ssh -n bandit18@localhost cat ./readme -> IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
+
+## Bandit Level 20
+* ./bandit20-do cat /etc/bandit_pass/bandit20 -> GbKksEFF4yrVs6il55v6gwY5aVje5f0j
