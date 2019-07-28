@@ -119,4 +119,4 @@
 ## Bandit Level 23
 * cat /etc/cron.d/cronjob_bandit23
 * /usr/bin/cronjob_bandit23.sh
-* cat /tmp/folder_that_gets_printed_above -> Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
+* cat /tmp/folder_that_gets_printed_above -> jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
